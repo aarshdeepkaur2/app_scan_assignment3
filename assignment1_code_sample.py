@@ -6,7 +6,7 @@ from urllib.parse import urlparse
 from urllib.request import Request, urlopen
 
 import pymysql
-
+import requests
 
 # Secure DB config using environment variables
 db_config = {
